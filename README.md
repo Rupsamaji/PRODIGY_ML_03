@@ -1,26 +1,33 @@
-# PRODIGY_ML_03
-Cats vs Dogs classification using PCA + SVM
+# Image Classification using Support Vector Machine
 
-## Overview
-This project classifies cat and dog images using Support Vector Machines (SVM) with PCA for dimensionality reduction and feature scaling.
+This project implements an image classification system using a Support Vector Machine (SVM) model. The system classifies images into different categories based on extracted visual features.
 
-## Dataset
-- 2000 cat images
-- 2000 dog images
-- Resized to 64×64 pixels
+## Project Overview
+Image classification is an important task in computer vision. In this project, a machine learning model is trained to recognize and classify images based on patterns in the data.
 
-## Methodology
+## Features
 - Image preprocessing
-- PCA (500 components)
-- Feature scaling
-- SVM (linear, RBF kernels, hyperparameter tuning)
+- Feature extraction from images
+- Training an SVM classifier
+- Image category prediction
+- Model evaluation
 
-## Results
-- Accuracy: ~XX%
-- Classification report and confusion matrix included
-- Cross-validation confirms stability
+## Technologies Used
+- Python
+- NumPy
+- OpenCV
+- Scikit-learn
+- Matplotlib
 
-## Future Work
-- CNN feature extraction (VGG16, ResNet)
-- Data augmentation
-- End-to-end deep learning models
+## Workflow
+1. Load and preprocess image dataset
+2. Convert images into feature vectors
+3. Train Support Vector Machine classifier
+4. Evaluate model performance
+5. Predict image categories
+
+## Applications
+- Object recognition
+- Image search systems
+- Computer vision applications
+- Automated image tagging
